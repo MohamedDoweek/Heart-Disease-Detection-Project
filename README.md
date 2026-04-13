@@ -60,29 +60,6 @@ The workflow covers data cleaning, preprocessing, feature engineering, explorato
 - Trained model file: `decision_tree_model.pkl`
 - Notebook with all steps and outputs: `Heart Disease (2).ipynb`
 
-## Project Screenshots
-Add your screenshots in a folder named `screenshots` at the project root, then keep/update the image links below.
-
-### 1) Dataset Preview
-![Dataset Preview](screenshots/dataset-preview.png)
-*Initial rows and structure of the heart disease dataset.*
-
-### 2) Data Preprocessing Pipeline
-![Preprocessing Pipeline](screenshots/preprocessing-pipeline.png)
-*Missing value handling, encoding, and normalization steps.*
-
-### 3) Feature Correlation with Target
-![Feature Correlation](screenshots/feature-correlation.png)
-*Most important features correlated with heart disease prediction.*
-
-### 4) Model Training and Evaluation
-![Model Training](screenshots/model-training.png)
-*Decision Tree training output and evaluation metrics.*
-
-### 5) Final Notebook Output
-![Final Output](screenshots/final-output.png)
-*Final project results and generated artifacts.*
-
 ## How to Run
 1. Open `Heart Disease (2).ipynb` in Jupyter Notebook, VS Code, or Cursor.
 2. Install the required libraries listed above.
