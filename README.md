@@ -4,6 +4,31 @@
 This project predicts the likelihood of heart disease using clinical data.
 The workflow covers data cleaning, preprocessing, feature engineering, exploratory analysis, model training, and saving a trained model.
 
+## Project Structure
+```text
+Heart_Disease_Detection/
+│── data/                     # Contains the dataset (raw & cleaned)
+│   ├── raw_data.csv
+│   ├── cleaned_data.csv
+│── notebooks/                # Jupyter Notebooks for visualization & preprocessing
+│   ├── data_analysis.ipynb
+│   ├── model_training.ipynb
+│── rule_based_system/        # Rule-based system using Experta
+│   ├── rules.py
+│   ├── expert_system.py
+│── ml_model/                 # Decision Tree implementation
+│   ├── train_model.py
+│   ├── predict.py
+│── utils/                    # Helper functions for data cleaning & processing
+│   ├── data_processing.py
+│── reports/                  # Comparison reports and evaluation
+│   ├── accuracy_comparison.md
+│── ui/                       # Streamlit UI for user interaction
+│   ├── app.py
+│── README.md                 # Project documentation & setup instructions
+│── requirements.txt          # List of dependencies
+```
+
 ## Project Files
 - `Heart Disease (2).ipynb`: End-to-end notebook for data analysis, model training, and evaluation.
 - `heart.csv`: Original heart disease dataset.
